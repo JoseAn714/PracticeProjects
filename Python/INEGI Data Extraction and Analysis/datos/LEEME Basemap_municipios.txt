@@ -1,0 +1,29 @@
+PRESENTACIÓN
+
+La Secretaría Técnica de Planeación y Evaluación, responsable de brindar el Servicio Público de Información Estadística y Geográfica en Yucatán, presenta el producto “Mapa base de municipios”, en formato digital, conformado por un total de 106 polígonos de municipios.
+
+La información se extrajo del producto "Cartografía Geoestadística Urbana y Rural Amanzanada. Cierre de la Encuesta Intercensal 2015", del Instituto Nacional de Estadística y Geografía (INEGI), cuya actualización corresponde al 30 de abril de 2015.
+
+INFORMACIÓN TÉCNICA
+
+Los archivos vectoriales se encuentran disponibles tanto en estándares de intercambio vectorial como en formatos de software comercial, con el fin de que se puedan incorporar en diversos programas informáticos, ya sea en los orientados a sistemas de información geográfica (SIG), a los de diseño asistido por computadora (ArcGIS), o bien a aplicaciones desarrolladas por el mismo usuario; se presenta la información en:
+
+*   Formato SHP
+*   Formato KML
+
+La información de los SHP se presenta en proyección Cónica Conforme de Lambert (CCL), Datum: ITRF92, en tanto que los KML se presentan en proyección Mercator 1SP Google (epsg:810127 alias 9841), Datum: World Geodetic System 1984 (epsg:6326). Pero la ubicación, forma y proporción de los elementos llevados a su expresión cartográfica es aproximada, debido a las fuentes y métodos de compilación.
+
+ESTRUCTURA
+
+La información contiene los siguientes campos y descriptores:
+
+OID = Identificador del polígono
+CVEGEO = Clave geográfica del municipio
+CVE_ENT	= Clave de entidad federativa
+NOM_ENT	= Nombre de la entidad federativa
+CVE_MUN	= Clave del municipio
+NOMGEO = Nombre del municipio
+
+Comité Estatal de Información Estadística y Geográfica de Yucatán 
+Secretaría Técnica de Planeación y Evaluación 
+www.siegy.yucatan.gob.mx

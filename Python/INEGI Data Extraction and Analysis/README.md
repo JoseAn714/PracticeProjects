@@ -1,0 +1,2 @@
+In this project, a data extraction from INEGI databases and some graphical and geospacial analysis was implemented.  
+NOTE: it is important that for it to work you get your own token from INEGI, some help may be found in this article: https://ahernandezarcique.medium.com/exploring-the-mexican-census-2020-1643df67fa9b

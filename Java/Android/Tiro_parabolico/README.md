@@ -1,0 +1,1 @@
+In this project a parabolic throw estimation aplication for Android was developed.
