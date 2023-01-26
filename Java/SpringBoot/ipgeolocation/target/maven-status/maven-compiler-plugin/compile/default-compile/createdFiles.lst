@@ -1,0 +1,3 @@
+com\springbootproject\ipgeolocation\IpgeolocationApplication.class
+com\springbootproject\ipgeolocation\service\LocationService.class
+com\springbootproject\ipgeolocation\controller\WebController.class

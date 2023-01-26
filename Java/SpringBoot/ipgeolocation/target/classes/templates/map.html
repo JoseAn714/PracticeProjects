@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"> 
+
+<head> 
+    <title>Spring Boot Project - Geolocation by IP</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+
+    function postYourAdd () {
+        var iframe = $("#forPostyouradd");
+        iframe.attr("src", iframe.data("src")); 
+    }
+
+    </script>
+</head>
+
+<body>
+    <p th:text="'Your IP: ' + ${ip}" ></p> 
+    <p th:text="'Latitude: ' + ${lat} + ', Longitude: ' + ${lon}" ></p>
+    <p th:text="@{'HTML embed: '+${url_embed}}"></p>
+
+    <button id="postYourAdd" onclick="postYourAdd()">Where Am I?</button>
+    <div>
+        <iframe id="forPostyouradd" width="1000" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" th:data-src="@{${url_embed}}" src="about:blank" style="background:#ffffff"></iframe><br/><small><a th:href="@{${url}}">View Larger Map</a></small>
+    </div>
+</body>
+
+</html>
